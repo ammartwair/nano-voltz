@@ -16,7 +16,7 @@ export default function Page() {
 
       {/* Row 1: Charts + Quick Actions */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mb-6">
-        <div className="md:col-span-6">
+        <div className="md:col-span-5">
           <PayrollChart />
         </div>
 
@@ -24,7 +24,7 @@ export default function Page() {
           <EmployeeStatusChart />
         </div>
 
-        <div className="md:col-span-2">
+        <div className="md:col-span-3">
           <QuickActions />
         </div>
       </div>

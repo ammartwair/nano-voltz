@@ -58,8 +58,9 @@ export default function Navbar() {
 
             {/* Right side */}
             <div className="flex items-center space-x-4 ml-auto w-full lg:w-auto">
+
                 {/* Search: full width on mobile */}
-                <div className="relative w-56 lg:w-30 xl:w-100">
+                <div className="relative w-40 lg:w-30 xl:w-100">
                     <input
                         type="text"
                         placeholder="Search..."

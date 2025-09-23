@@ -33,14 +33,14 @@ const data = [
 
 export default function EmployeeStatusChart() {
     return (
-        <div className="bg-card rounded-2xl shadow p-6 min-h-full">
+        <div className="bg-card rounded-xl shadow p-3 min-h-full">
 
-            <h3 className="text-base font-semibold text-[#171717] mb-1">
+            <h2 className="text-base font-semibold text-[#171717] mb-1">
                 Employee Status
-            </h3>
-            <p className="font-semibold text-[#FFD700] mb-4">Total 532</p>
+            </h2>
+            <p className="font-semibold text-[#808000] mb-2">Total 532</p>
 
-            <div className="h-60">
+            <div className="h-[200px] sm:h-[210px] lg:h-[220px]">
                 <ResponsiveContainer width="100%" height="100%">
                     <RadialBarChart
                         cx="45%"

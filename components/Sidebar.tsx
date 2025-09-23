@@ -31,7 +31,7 @@ const navItems = [
 
 export default function Sidebar() {
     return (
-        <aside className="h-screen bg-[#f4ede3] w-20 shadow-md flex flex-col items-center py-6 space-y-8">
+        <aside className="hidden md:flex h-screen bg-[#EDE6DC] w-16 md:w-20 shadow-md flex flex-col items-center py-6 space-y-8 z-50">
             <nav className="flex flex-col items-center space-y-6 text-gray-600">
                 {navItems.map((item, index) => (
                     <Link

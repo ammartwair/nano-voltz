@@ -13,7 +13,7 @@ const data = [
 
 export default function NationalitySummary() {
     return (
-        <Card className="rounded-2xl shadow-md p-1 min-h-full ">
+        <Card className="rounded-xl shadow p-3 bg-card w-full h-full min-h-[250px]">
             <CardHeader>
                 <CardTitle className="text-sm font-semibold">
                     Top 5 Nationality Summary

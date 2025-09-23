@@ -14,7 +14,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 export default function AssignedShiftsCard() {
     return (
         <>
-            <h2 className="mb-6">Info</h2>
+            <h2 className="text-base font-semibold mb-2">Info</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Assigned Shifts Card */}
                 <Card className="rounded-2xl shadow-md p-6">

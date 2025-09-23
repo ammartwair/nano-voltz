@@ -20,10 +20,10 @@ const data = [
 
 export default function PayrollChart() {
     return (
-        <div className="rounded-2xl shadow p-6 min-h-full bg-card">
-            <h3 className="text-lg font-semibold mb-4">Payroll Cost Summary 2025</h3>
-            <p className="font-semibold text-[#FFD700] mb-4">Total 500,250.52 AED</p>
-            <div className="h-64">
+        <div className="rounded-xl shadow p-3 bg-card">
+            <h2 className="text-base sm:text-lg font-semibold mb-1">Payroll Cost Summary 2025</h2>
+            <p className="text-xs sm:text-sm md:text-base font-semibold text-[#808000] mb-2">Total 500,250.52 AED</p>
+            <div className="h-[200px] sm:h-[210px] lg:h-[220px]">
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={data}>
                         <CartesianGrid strokeDasharray="3 3" />

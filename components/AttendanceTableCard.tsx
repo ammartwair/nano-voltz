@@ -29,7 +29,7 @@ const attendanceRows = [
 export default function AttendanceTableCard() {
     return (
         <>
-            <h2 className="mb-6 text-lg font-semibold">Attendance Report</h2>
+            <h2 className="mb-6 text-base font-semibold">Attendance Report</h2>
             <Card className="rounded-2xl shadow-md p-6">
                 <CardHeader className="pb-3 flex-row items-center justify-between">
                     <CardTitle className="text-md font-semibold">

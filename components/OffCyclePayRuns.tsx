@@ -12,10 +12,10 @@ const offPayRuns = [
 
 export default function OffCyclePayRuns() {
     return (
-        <Card className="rounded-2xl shadow-md h-full p-4 ">
+        <Card className="rounded-xl shadow p-3 bg-card w-full h-full min-h-[250px]">
             <CardHeader className="pb-2">
                 <CardTitle className="text-lg font-semibold">Off Cycle Pay Runs</CardTitle>
-                <p className="text-sm font-semibold text-[#b38b00]">
+                <p className="text-sm font-semibold text-[#808000]">
                     Total 10,000.00 AED
                 </p>
             </CardHeader>

@@ -39,7 +39,7 @@ export default function ProfileSidebar() {
 
             {/* Reportees List */}
             <div className="space-y-4">
-                <h4 className="text-lg font-semibold">Reportees</h4>
+                <h2 className="text-base font-semibold">Reportees</h2>
                 <div className="space-y-3">
                     {reporters.map((reporter, index) => (
                         <div

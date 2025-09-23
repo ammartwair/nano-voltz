@@ -45,7 +45,7 @@ const statusColors: Record<string, string> = {
 export default function AttendanceTimelineCard() {
     return (
         <>
-            <h2 className="mb-6 text-lg font-semibold">Attendance</h2>
+            <h2 className="mb-6 text-base font-semibold">Attendance</h2>
             <Card className="rounded-2xl shadow-md p-6">
                 <CardHeader className="pb-3">
                     <CardTitle className="text-md font-semibold">

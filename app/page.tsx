@@ -7,8 +7,6 @@ import NationalitySummary from "@/components/NationalitySummary";
 import PayrollChart from "@/components/PayrollChart";
 import EmployeeStatusChart from "@/components/EmployeeStatusChart";
 
-
-
 export default function Page() {
   return (
     <main className="p-3 bg-[#f4ede3] min-h-screen">

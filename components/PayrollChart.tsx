@@ -22,7 +22,7 @@ export default function PayrollChart() {
     return (
         <div className="rounded-xl shadow p-3 bg-card">
             <h2 className="text-base sm:text-lg font-semibold mb-1">Payroll Cost Summary 2025</h2>
-            <p className="text-xs sm:text-sm md:text-base font-semibold text-[#808000] mb-2">Total 500,250.52 AED</p>
+            <p className="text-xs sm:text-sm md:text-base font-bold text-[#715C00] mb-2">Total 500,250.52 AED</p>
             <div className="h-[200px] sm:h-[210px] lg:h-[220px]">
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={data}>
@@ -30,7 +30,7 @@ export default function PayrollChart() {
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
-                        <Bar dataKey="cost" fill="#b38b00" radius={[6, 6, 0, 0]} />
+                        <Bar dataKey="cost" fill="#715C00" radius={[6, 6, 0, 0]} />
                     </BarChart>
                 </ResponsiveContainer>
             </div>

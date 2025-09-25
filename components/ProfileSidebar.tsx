@@ -31,7 +31,7 @@ export default function ProfileSidebar() {
                     <p className="text-sm text-gray-500 mb-3">
                         nanoVoltz Smart System Development L.L.C
                     </p>
-                    <Button className="bg-[#6b6b2f] cursor-pointer hover:bg-[#555522] text-white text-xs rounded-md">
+                    <Button className="bg-[#715C00] cursor-pointer hover:bg-[#555522] text-white text-xs rounded-md">
                         Update My Profile
                     </Button>
                 </div>
@@ -46,7 +46,7 @@ export default function ProfileSidebar() {
                             key={index}
                             className="flex items-center rounded-lg border shadow-sm overflow-hidden"
                         >
-                            <div className="w-16 h-16 bg-gray-200 flex items-center justify-center text-xs text-gray-600">
+                            <div className="w-16 h-16 bg-[#DDDDDD] flex items-center justify-center text-xs text-gray-600">
                                 400x400
                             </div>
                             <div className="flex flex-col px-3 py-2">

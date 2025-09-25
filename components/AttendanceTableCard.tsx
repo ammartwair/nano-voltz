@@ -48,17 +48,17 @@ export default function AttendanceTableCard() {
                 <CardContent>
                     <div className="overflow-x-auto">
                         <table className="w-full text-sm text-left border-collapse">
-                            <thead className="text-xs uppercase text-gray-500">
+                            <thead className="text-xs">
                                 <tr>
-                                    <th className="p-3 font-medium">Employee ID</th>
-                                    <th className="p-3 font-medium">Employee Name</th>
-                                    <th className="p-3 font-medium">Department</th>
-                                    <th className="p-3 font-medium">Date</th>
-                                    <th className="p-3 font-medium">Scheduled Hours</th>
-                                    <th className="p-3 font-medium">Worked Hours</th>
-                                    <th className="p-3 font-medium">Hours Late</th>
-                                    <th className="p-3 font-medium">Hours Absent</th>
-                                    <th className="p-3 font-medium">Action</th>
+                                    <th className="p-3 font-bold">Employee ID</th>
+                                    <th className="p-3 font-bold">Employee Name</th>
+                                    <th className="p-3 font-bold">Department</th>
+                                    <th className="p-3 font-bold">Date</th>
+                                    <th className="p-3 font-bold">Scheduled Hours</th>
+                                    <th className="p-3 font-bold">Worked Hours</th>
+                                    <th className="p-3 font-bold">Hours Late</th>
+                                    <th className="p-3 font-bold">Hours Absent</th>
+                                    <th className="p-3 font-bold">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -75,7 +75,7 @@ export default function AttendanceTableCard() {
                                         <td className="p-3">{row.worked}</td>
                                         <td className="p-3">{row.late}</td>
                                         <td className="p-3">{row.absent}</td>
-                                        <td className="p-3 font-semibold text-yellow-700 cursor-pointer">
+                                        <td className="p-3 font-semibold text-[#715C00] cursor-pointer">
                                             View
                                         </td>
                                     </tr>

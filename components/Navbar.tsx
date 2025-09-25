@@ -19,6 +19,12 @@ export default function Navbar() {
         { label: "Loans", href: "/loans" },
         { label: "Settings", href: "/settings" },
     ];
+    const profNavItems = [
+        { label: "Dashboard", href: "/" },
+        { label: "Me", href: "/profile" },
+        { label: "Department", href: "/department" },
+        { label: "Organization", href: "/organization" },
+    ];
 
     return (
         <header className="h-16 bg-[#f4ede3] border-b border-gray-200 flex items-center px-4 lg:px-6 shadow-sm">
@@ -41,19 +47,35 @@ export default function Navbar() {
             </div>
 
             {/* Desktop Nav */}
+
             <nav className="hidden lg:flex items-center space-x-4 ml-6">
-                {navItems.map((item) => (
-                    <Link
-                        key={item.label}
-                        href={item.href}
-                        className={`text-sm font-medium ${pathname === item.href
-                            ? "text-[#1e40af] border-b-2 border-[#1e40af]"
-                            : "text-[#333333]"
-                            }`}
-                    >
-                        {item.label}
-                    </Link>
-                ))}
+                {pathname !== "/profile" ? <>
+                    {navItems.map((item) => (
+                        <Link
+                            key={item.label}
+                            href={item.href}
+                            className={`text-xs uppercase navbar_menu font-medium ${pathname === item.href
+                                ? "text-[#715C00] border-b-4 border-[#715C00]"
+                                : "text-[#333333]"
+                                }`}
+                        >
+                            {item.label}
+                        </Link>
+                    ))}
+                </> : <>
+                    {profNavItems.map((item) => (
+                        <Link
+                            key={item.label}
+                            href={item.href}
+                            className={`text-xs uppercase navbar_menu font-medium ${pathname === item.href
+                                ? "text-[#715C00] border-b-4 border-[#715C00]"
+                                : "text-[#333333]"
+                                }`}
+                        >
+                            {item.label}
+                        </Link>
+                    ))}
+                </>}
             </nav>
 
             {/* Right side */}

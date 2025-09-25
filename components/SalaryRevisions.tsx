@@ -14,7 +14,7 @@ export default function SalaryRevisions() {
         <Card className="rounded-xl shadow p-3 bg-card w-full h-full min-h-[250px]">
             <CardHeader className="pb-2">
                 <CardTitle className="text-lg font-semibold">Salary Revisions</CardTitle>
-                <p className="text-sm font-semibold text-[#808000]">
+                <p className="text-xs sm:text-sm md:text-base font-bold text-[#715C00]">
                     Total 5
                 </p>
             </CardHeader>

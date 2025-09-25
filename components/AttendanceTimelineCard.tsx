@@ -7,7 +7,7 @@ const attendanceData = [
     {
         date: "21 Jun",
         status: "Absent",
-        color: "bg-red-600",
+        color: "bg-[#AE2021]",
         segments: [
             { time: "9:00", type: "absent" },
             { time: "10:00", type: "absent" },
@@ -22,7 +22,7 @@ const attendanceData = [
     {
         date: "22 Jun",
         status: "Present",
-        color: "bg-yellow-600",
+        color: "bg-[#6E5C0A]",
         segments: [
             { time: "9:00", type: "present" },
             { time: "10:00", type: "present" },
@@ -37,9 +37,9 @@ const attendanceData = [
 ];
 
 const statusColors: Record<string, string> = {
-    present: "bg-yellow-300",
-    absent: "bg-red-200",
-    break: "bg-green-200",
+    present: "bg-[#FFE080]",
+    absent: "bg-[#FFDAD7]",
+    break: "bg-[#C8EBCA]",
 };
 
 export default function AttendanceTimelineCard() {
@@ -67,8 +67,8 @@ export default function AttendanceTimelineCard() {
                                     className={`${day.color} w-2 rounded-l-lg`}
                                 ></div>
 
-                                <div className="flex-1 rounded-r-lg bg-gray-100 overflow-hidden">
-                                    <div className="text-xs text-gray-600 px-2 py-3 border-b border-gray-200">
+                                <div className="flex-1 rounded-r-lg bg-[#E9E2D9] overflow-hidden">
+                                    <div className="text-xs text-[#534C41] px-2 py-3 border-b border-gray-200">
                                         Default 8hr Shift | Morning: 9AM - 12PM, Break: 12PM - 1PM,Night: 1PM - 6PM
                                     </div>
 
@@ -90,8 +90,8 @@ export default function AttendanceTimelineCard() {
                             <div >
                                 <span
                                     className={`px-3 py-1 text-xs font-semibold rounded-md border ${day.status === "Present"
-                                        ? "text-yellow-600 border-yellow-600"
-                                        : "text-red-700 border-red-700"
+                                        ? "text-[#6E5C0A] border-[#6E5C0A]"
+                                        : "text-[#AE2021] border-[#AE2021]"
                                         }`}
                                 >
                                     {day.status}

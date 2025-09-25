@@ -12,22 +12,22 @@ const data = [
     {
         name: "Total",
         value: 532,
-        fill: "#9ca3af",
+        fill: "#7D7666",
     },
     {
         name: "Active",
         value: 280,
-        fill: "#b38b00",
+        fill: "#715C00",
     },
     {
         name: "On-leave",
         value: 40,
-        fill: "#6b6b2f",
+        fill: "#675D3D",
     },
     {
         name: "Inactive",
         value: 180,
-        fill: "#2f6b4f",
+        fill: "#46654B",
     },
 ];
 
@@ -38,7 +38,7 @@ export default function EmployeeStatusChart() {
             <h2 className="text-base font-semibold text-[#171717] mb-1">
                 Employee Status
             </h2>
-            <p className="font-semibold text-[#808000] mb-2">Total 532</p>
+            <p className="text-xs sm:text-sm md:text-base font-bold text-[#715C00] mb-2">Total 532</p>
 
             <div className="h-[200px] sm:h-[210px] lg:h-[220px]">
                 <ResponsiveContainer width="100%" height="100%">

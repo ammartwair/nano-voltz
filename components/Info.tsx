@@ -69,7 +69,7 @@ export default function AssignedShiftsCard() {
                             <button className="px-2 py-1 border border-gray-300 rounded-md ">
                                 Days
                             </button>
-                            <button className="px-2 py-1 border border-gray-300 rounded-md flex items-center bg-gray">
+                            <button className="px-2 py-1 border border-gray-300 rounded-md flex items-center bg-[#E1E1E3]">
                                 <Check className="w-4 h-4 text-gray-500" />
                                 Hours
                             </button>
